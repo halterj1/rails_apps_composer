@@ -674,7 +674,7 @@ say_recipe 'gems'
 @configs[@current_recipe] = config
 
 # Application template recipe for the rails_apps_composer. Change the recipe here:
-# https://github.com/RailsApps/rails_apps_composer/blob/master/recipes/gems.rb
+https://github.com/halterj1/rails_apps_composer/blob/master/recipes/gems.rb
 
 ### GEMFILE ###
 

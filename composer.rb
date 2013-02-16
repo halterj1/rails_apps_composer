@@ -681,6 +681,9 @@ https://github.com/halterj1/rails_apps_composer/blob/master/recipes/gems.rb
 ## Ruby on Rails
 insert_into_file 'Gemfile', "ruby '1.9.3'\n", :before => "gem 'rails', '3.2.6'" if prefer :deploy, 'heroku'
 
+## terminal-notifier
+gem 'terminal-notifier'
+
 ## Web Server
 if (prefs[:dev_webserver] == prefs[:prod_webserver])
   gem 'thin', '>= 1.5.0' if prefer :dev_webserver, 'thin'
